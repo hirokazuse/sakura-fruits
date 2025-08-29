@@ -1,1 +1,110 @@
+/* 全体リセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ヘッダー */
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #d65a31;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #d65a31;
+}
+
+/* ヒーローセクション */
+#hero {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #fff3e0;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#hero h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2em;
+}
+
+/* 商品セクション */
+#products {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#products h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #d65a31;
+}
+
+/* 商品カード */
+.product {
+  display: inline-block;
+  width: 220px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  vertical-align: top;
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.product p {
+  font-size: 0.95em;
+  color: #666;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  color: #777;
+}
 
